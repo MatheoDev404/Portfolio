@@ -1,0 +1,382 @@
+/* ------------- RESET CSS ------------ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------- STRUCTURE --------- */
+
+html{
+    font-family: "Ralway",Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------- CLASS ------------ */
+
+.hidden{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    left:-1000px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.arrow_next{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+.section_title{
+    line-height: 10rem;
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ------------- HEADER ------------ */
+
+#main_header{
+    width: 100%;
+    background-color: rgb(62, 143, 62);
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.logo{
+    background-color: yellow;
+    height: 50px;
+    width: 10%;
+    margin: 3rem;
+}
+
+#main_nav{
+    margin: 0 4%;
+    padding: 10px;
+    width: 60%;
+}
+
+#main_nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main_nav li{
+    display:inline-block;
+    margin: 4rem;
+}
+
+#main_nav li a{
+    font-size: 2rem;
+    border:1px solid black;    
+    padding: 20px;
+    color: black;
+}
+
+#main_nav li:hover a{
+    background-color: rgb(62, 143, 62);
+    box-shadow: 5px 5px 2px 2px rgb(49, 49, 49);
+}
+
+#main_nav li:hover {
+    margin-top:3.8rem;
+}
+
+.contact_mini{
+    background-color: yellow;
+    height: 50px;
+    width: 10%;
+    margin: 3rem;
+}
+
+/* ------------- HOME ------------ */
+
+#home{
+    
+    height: 100vh;
+    background: url("../assets/img/header_bg.jpg") no-repeat center ;
+    background-size: cover;
+}
+
+#home h1{
+    padding-top:41vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6rem;
+    line-height: 16rem;
+}
+
+#home h1 span{
+    display: block;
+}
+
+/* ------------- PROJECTS ------------ */
+
+#projects{
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+.wrapper{
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.project_mini{
+    overflow: hidden;
+    position: relative;
+    margin:1rem;
+    width:40%;
+    height: 200px;
+    background-color: orange;
+}
+
+.project_mini .appear{
+    position: absolute;
+    z-index: 1;
+    left:-100%;
+    transition: left 1s ;
+}
+
+.project_title{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.project_mini p{
+    display: block;
+    width: 80%;
+    top: 20px;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.project_mini:hover .appear{
+    left:0;
+}
+
+.appear{
+    width: 120%;
+    height: 100%;
+    background-color: rgba(124, 124, 124, 0.3)
+}
+
+.project_mini img{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transition: left 1s;
+}
+
+.project_mini:hover img{
+    left:120%;
+}
+
+#projects .arrow_next{
+    padding-top: 60px;
+}
+
+/* ------------- ABOUT ------------ */
+
+#about{
+    min-height: 100vh;
+    padding-top: 120px;
+    background-color:rgba(124, 124, 124, 0.3);
+}
+
+#presentation{
+    font-size: 1.6rem;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0.5rem;
+}
+
+#about section{
+    width: 100%;
+    height: 56vh;
+    display: flex;
+}
+
+.about_title{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.competences, .parcours{
+    padding: 3rem;
+    background-color: rgb(88, 80, 80);
+    width: 45%;
+    font-size: 1.6rem;
+    margin: 2.5%;
+    min-height:450px; 
+}
+
+.container{
+    min-height: 110px;
+    display: flex;
+    background-color: rgba(124, 124, 124, 0.3);
+    margin: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container div{
+    width: 70%;
+    display: inline-block;
+}
+
+.container p {
+    line-height: 8rem;
+}
+
+.resize{
+    min-width: 100px;
+    width: 20%;
+    padding: 1rem;
+}
+
+#about .arrow_next{
+    padding: 25px 0 40px;
+}
+
+.graduation{
+    background-color: white;
+    width: 150px;
+    height: 20px;
+}
+
+.php_grad, .js_grad, .html_grad {
+    background-color: purple;
+    width: 100px;
+    height: 20px;
+}
+
+.bubble {
+    background-color: rgba(124, 124, 124, 0.3);
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 7.5rem;
+}
+
+.container2{
+    background-color: rgba(124, 124, 124, 0.3);
+    margin: 0.5rem;
+    display: flex;
+    padding: 1rem;
+}
+
+.container2 .event{
+    width:80%;
+    text-align: right;
+    line-height: 7.5rem;
+    margin-right: 50px;
+}
+
+.cv_button{
+    margin: 10px auto;
+    text-align: center;
+    padding-top:5rem;
+}
+
+.cv_button a {
+    line-height: 4rem;
+    padding: 10px;
+    font-size: 2rem;
+    color: black;
+    border:1px solid black;
+}
+
+/* ------------- CONTACT ------------ */
+
+#contact{
+    
+    padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact .section_title{
+    width: 100%;
+}
+.contact_title{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.left, .right{
+    padding: 3rem;
+    background-color: red;
+    margin: 2%;
+    width: 46%;
+}
+
+.arrow_top{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+/* ------------- FOOTER ------------ */
