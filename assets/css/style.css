@@ -87,12 +87,13 @@ html{
 
 #main_header{
     width: 100%;
-    background-color: rgb(62, 143, 62);
+    background-color: rgb(147, 255, 147);
     position: fixed;
     z-index: 5;
     top: 0;
     left: 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .logo{
@@ -102,36 +103,24 @@ html{
     margin: 3rem;
 }
 
-#main_nav{
-    margin: 0 4%;
-    padding: 10px;
-    width: 60%;
-}
-
 #main_nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #main_nav li{
     display:inline-block;
-    margin: 4rem;
 }
 
 #main_nav li a{
-    font-size: 2rem;
-    border:1px solid black;    
-    padding: 20px;
+    line-height: 10rem;
+    padding: 41px;
+    font-size: 3rem;
     color: black;
 }
 
 #main_nav li:hover a{
-    background-color: rgb(62, 143, 62);
-    box-shadow: 5px 5px 2px 2px rgb(49, 49, 49);
-}
-
-#main_nav li:hover {
-    margin-top:3.8rem;
+    background-color: rgba(123, 221, 123, 0.8);
 }
 
 .contact_mini{
