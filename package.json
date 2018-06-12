@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio mathéo stunault",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bhtml)",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheoDev404/Portfolio.git"
+  },
+  "author": "MatheoDev404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheoDev404/Portfolio/issues"
+  },
+  "homepage": "https://github.com/MatheoDev404/Portfolio#readme"
+}
