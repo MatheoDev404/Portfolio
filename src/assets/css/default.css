@@ -1,0 +1,25 @@
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+.codrops-icon-archive:before {
+	content: "\e002";
+}
+.codrops-icon-next:before {
+	content: "\e000";
+}
+.codrops-icon-about:before {
+	content: "\e003";
+}
+
+@media screen and (max-width: 25em) { 
+	.codrops-icon span {
+		display: none;
+	}
+	.container > header {
+		font-size: 75%;
+	}
+}
