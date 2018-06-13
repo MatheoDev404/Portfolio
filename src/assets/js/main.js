@@ -39,7 +39,7 @@ $(()=>{
             var anchor = $(this.hash);
             anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
             if ( anchor.length ) {
-                $("html, body").animate( { scrollTop: anchor.offset().top }, 1500);
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 1000);
             }
         }
     });
