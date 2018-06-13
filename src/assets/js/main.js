@@ -1,6 +1,5 @@
 $(()=>{
 
-    
     //  The function to change the class
     var changeClass = function (r,className1,className2) {
         var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
@@ -21,8 +20,7 @@ $(()=>{
     document.getElementById('menutoggle').onclick = function() {
         changeClass(this, 'navtoogle active', 'navtoogle');
     }
-    
-    // http://tympanus.net/codrops/2013/05/08/responsive-retina-ready-menu/comment-page-2/#comment-438918
+
     document.onclick = function(e) {
         var mobileButton = document.getElementById('menutoggle'),
         buttonStyle =  mobileButton.currentStyle ? mobileButton.currentStyle.display : getComputedStyle(mobileButton, null).display;
@@ -31,4 +29,20 @@ $(()=>{
             changeClass(mobileButton, 'navtoogle active', 'navtoogle');
         }
     }
+
+    //Smooth scroll
+    $("a[href*='#']:not([href='#'])").click(function() {
+        if (
+            location.hostname == this.hostname
+            && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
+        ) {
+            var anchor = $(this.hash);
+            anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
+            if ( anchor.length ) {
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 1500);
+            }
+        }
+    });
+    
+    
 });
