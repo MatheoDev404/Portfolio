@@ -76,6 +76,7 @@ a:hover {
 }
 
 .section_title{
+    color: white;
     line-height: 10rem;
     font-size: 5rem;
     text-align: center;
@@ -122,17 +123,18 @@ a:hover {
 #projects{
     background-color: rgb(0, 120, 47);
     min-height: 100vh;
-    padding-top: 120px;
+    padding: 120px 0 40px;
 }
+
 #container_projects{
     width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-.container_img{
-    margin-bottom: 2rem;
+.container-img {
+    margin: 1rem;
 }
 
 /* ------------- ABOUT ------------ */
