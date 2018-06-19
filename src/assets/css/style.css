@@ -134,8 +134,10 @@ a:hover {
     justify-content: center;
 }
 .container-img {
-    margin: 1rem;
+    width: 35%;
+    margin: 2rem;
 }
+
 
 /* ------------- ABOUT ------------ */
 
@@ -172,70 +174,19 @@ a:hover {
     margin: 2.5%;
     min-height:450px; 
 }
+/* competences */
 
-.container{
-    min-height: 110px;
-    display: flex;
-    background-color: rgba(124, 124, 124, 0.3);
-    margin: 5px;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.progress-bar {
+    height: 1rem;
+    width: 80%;
+    background: rgb(30,87,153);
+    background: -moz-linear-gradient(left, rgb(30,87,153) 0%, rgb(30,87,153) 66%, rgb(255,255,255) 66%, rgb(255,255,255) 100%);
+    background: -webkit-linear-gradient(left, rgb(30,87,153) 0%,rgb(30,87,153) 66%,rgb(255,255,255) 66%,rgb(255,255,255) 100%);
+    background: linear-gradient(to right, rgb(30,87,153) 0%,rgb(30,87,153) 66%,rgb(255,255,255) 66%,rgb(255,255,255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ffffff',GradientType=1 );
 }
 
-.container div{
-    width: 70%;
-    display: inline-block;
-}
-
-.container p {
-    line-height: 8rem;
-}
-
-.resize{
-    min-width: 100px;
-    width: 20%;
-    padding: 1rem;
-}
-
-#about .arrow_next{
-    padding: 25px 0 40px;
-}
-
-.graduation{
-    background-color: white;
-    width: 150px;
-    height: 20px;
-}
-
-.php_grad, .js_grad, .html_grad {
-    background-color: purple;
-    width: 100px;
-    height: 20px;
-}
-
-.bubble {
-    background-color: rgba(124, 124, 124, 0.3);
-    border-radius: 50px;
-    width: 75px;
-    height: 75px;
-    text-align: center;
-    line-height: 7.5rem;
-}
-
-.container2{
-    background-color: rgba(124, 124, 124, 0.3);
-    margin: 0.5rem;
-    display: flex;
-    padding: 1rem;
-}
-
-.container2 .event{
-    width:80%;
-    text-align: right;
-    line-height: 7.5rem;
-    margin-right: 50px;
-}
-
+/* parcours */
 .cv_button{
     margin: 10px auto;
     text-align: center;

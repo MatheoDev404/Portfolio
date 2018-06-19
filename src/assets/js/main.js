@@ -1,5 +1,6 @@
 $(()=>{
 
+    //NAVIGATION
     //  The function to change the class
     var changeClass = function (r,className1,className2) {
         var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
@@ -43,6 +44,9 @@ $(()=>{
             }
         }
     });
+    
+
+    //ABOUT
     
     
 });
