@@ -156,7 +156,6 @@ a:hover {
 
 #about section{
     width: 100%;
-    height: 56vh;
     display: flex;
 }
 
@@ -176,15 +175,18 @@ a:hover {
 }
 /* competences */
 
-.progress-bar {
-    height: 1rem;
-    width: 80%;
-    background: rgb(30,87,153);
-    background: -moz-linear-gradient(left, rgb(30,87,153) 0%, rgb(30,87,153) 66%, rgb(255,255,255) 66%, rgb(255,255,255) 100%);
-    background: -webkit-linear-gradient(left, rgb(30,87,153) 0%,rgb(30,87,153) 66%,rgb(255,255,255) 66%,rgb(255,255,255) 100%);
-    background: linear-gradient(to right, rgb(30,87,153) 0%,rgb(30,87,153) 66%,rgb(255,255,255) 66%,rgb(255,255,255) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ffffff',GradientType=1 );
+.jauge{
+    width: 100%;
+    background-color: green;
 }
+
+.jquery-bar, .js-bar, .html-css-bar, .angular-bar{
+    width: 0;
+    height: 20px ;
+    background-color: blue;
+    transition: width 2s;
+}
+
 
 /* parcours */
 .cv_button{

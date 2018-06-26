@@ -41,12 +41,35 @@ $(()=>{
             anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
             if ( anchor.length ) {
                 $("html, body").animate( { scrollTop: anchor.offset().top }, 1000);
+                
             }
         }
     });
     
 
-    //ABOUT
+    // ABOUT
+    // Get scroll position
+    function progressBar (bar,max){
+        var scroll = this.scrollY;
+        if(scroll > 2330){
+            console.log('test')
+            $(bar).css("width", max);
+        }  else if(scroll < 2330){
+            console.log('test')
+            $(bar).css("width", "0%");
+        }
+    }
+
     
+    $( window ).scroll(function() {
+        progressBar(".html-css-bar","90%");
+        progressBar(".js-bar","80%");
+        progressBar(".jquery-bar","80%");
+        progressBar(".angular-bar","30%");
+    });
+    
+    // skillbar
+
+  
     
 });
