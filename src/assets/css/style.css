@@ -164,7 +164,9 @@ a:hover {
     text-align: center;
     margin-bottom: 2rem;
 }
-
+#liste-competences li{
+    list-style: none;
+}
 .competences, .parcours{
     padding: 3rem;
     background-color: rgb(88, 80, 80);
@@ -173,18 +175,25 @@ a:hover {
     margin: 2.5%;
     min-height:450px; 
 }
+
 /* competences */
 
 .jauge{
-    width: 100%;
-    background-color: green;
+    width: 90%;
+    border-radius:0 5px 5px 0;    
+    background-color: lightgrey;
 }
 
 .jquery-bar, .js-bar, .html-css-bar, .angular-bar{
     width: 0;
-    height: 20px ;
-    background-color: blue;
+    border-radius:0 5px 5px 0;
+    background-color: green;
     transition: width 2s;
+}
+
+.jauge h5 {
+    padding-left: 10px;
+    line-height: 3rem;
 }
 
 
