@@ -100,7 +100,7 @@ a:hover {
 
 #home{
     height: 100vh;
-    background-color: rgb(0, 100, 47);
+    background-color: #3082B0;
     background-size: cover;
     background-position: 0 -300px;
     padding-top: 35vh;
@@ -184,7 +184,7 @@ a:hover {
     background-color: lightgrey;
 }
 
-.jquery-bar, .js-bar, .html-css-bar, .angular-bar{
+.jquery-bar, .js-bar, .html-css-bar, .angular-bar, .php-bar, .mysql-bar{
     width: 0;
     border-radius:0 5px 5px 0;
     background-color: green;

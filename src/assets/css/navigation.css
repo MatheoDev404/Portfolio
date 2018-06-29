@@ -95,19 +95,19 @@ a, button {
 /* Adding some background color to the different menu items */
 
 .nav li:nth-child(6n+1) {
-	background: rgb(0, 100, 47);
+	background: #3082B0;
 }
 
 .nav li:nth-child(6n+2) {
-	background: rgb(0, 120, 47);
+	background: #B0D0E3;
 }
 
 .nav li:nth-child(6n+3) {
-	background: rgb(0, 140, 47);
+	background: #8A5D56;
 }
 
 .nav li:nth-child(6n+4) {
-	background: rgb(0, 160, 47);
+	background: #2F7D6F;
 }
 
 
