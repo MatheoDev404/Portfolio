@@ -100,7 +100,7 @@ a:hover {
 
 #home{
     height: 100vh;
-    background-color: #3082B0;
+    background-color: #13383D;
     background-size: cover;
     background-position: 0 -300px;
     padding-top: 35vh;
@@ -121,7 +121,7 @@ a:hover {
 /* ------------- PROJECTS ------------ */
 
 #projects{
-    background-color: rgb(0, 120, 47);
+    background-color: #007D7F;
     min-height: 100vh;
     padding: 120px 0 40px;
 }
@@ -142,7 +142,7 @@ a:hover {
 /* ------------- ABOUT ------------ */
 
 #about{
-    background-color: rgb(0, 140, 47);
+    background-color: #005657;
     min-height: 100vh;
     padding-top: 120px;
 }
@@ -215,7 +215,7 @@ a:hover {
 /* ------------- CONTACT ------------ */
 
 #contact{
-    background-color: rgb(0, 160, 47);
+    background-color: #41200D;
     padding-top: 120px;
     display: flex;
     flex-wrap: wrap;
