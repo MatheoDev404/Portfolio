@@ -135,25 +135,25 @@ a, button {
 	.no-touch .nav li:nth-child(6n+1) a:hover,
 	.no-touch .nav li:nth-child(6n+1) a:active,
 	.no-touch .nav li:nth-child(6n+1) a:focus {
-		border-bottom: 4px solid rgb(0, 160, 47);
+		border-bottom: 4px solid rgb(16, 47, 51);
 	}
 
 	.no-touch .nav li:nth-child(6n+2) a:hover,
 	.no-touch .nav li:nth-child(6n+2) a:active,
 	.no-touch .nav li:nth-child(6n+2) a:focus {
-		border-bottom: 4px solid rgb(0, 140, 47);
+		border-bottom: 4px solid rgb(1, 109, 110);
 	}
 
 	.no-touch .nav li:nth-child(6n+3) a:hover,
 	.no-touch .nav li:nth-child(6n+3) a:active,
 	.no-touch .nav li:nth-child(6n+3) a:focus {
-		border-bottom: 4px solid rgb(0, 120, 47);
+		border-bottom: 4px solid #01393b;
 	}
 
 	.no-touch .nav li:nth-child(6n+4) a:hover,
 	.no-touch .nav li:nth-child(6n+4) a:active,
 	.no-touch .nav li:nth-child(6n+4) a:focus {
-		border-bottom: 4px solid rgb(0, 100, 47);
+		border-bottom: 4px solid rgb(49, 25, 10);
 	}
 
 	/* Placing the icon */
