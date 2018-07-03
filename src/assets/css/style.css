@@ -227,6 +227,7 @@ a:hover {
     width: 100%;
 }
 .contact_title{
+    width: 100%;
     font-size: 1.9rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -245,7 +246,12 @@ a:hover {
 }
 
 #button {
-    width: 50%;
+    margin: 0 auto;
+    width:50%;
+}
+#button input{
+    padding:10px;
+    border-radius:5px;
 }
 
 /* ------------- FOOTER ------------ */
