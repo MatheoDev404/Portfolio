@@ -107,7 +107,7 @@ a, button {
 }
 
 .nav li:nth-child(6n+4) {
-	background: #41200D;
+	background: #5A7B79;
 }
 
 
@@ -147,13 +147,13 @@ a, button {
 	.no-touch .nav li:nth-child(6n+3) a:hover,
 	.no-touch .nav li:nth-child(6n+3) a:active,
 	.no-touch .nav li:nth-child(6n+3) a:focus {
-		border-bottom: 4px solid #01393b;
+		border-bottom: 4px solid #01292b;
 	}
 
 	.no-touch .nav li:nth-child(6n+4) a:hover,
 	.no-touch .nav li:nth-child(6n+4) a:active,
 	.no-touch .nav li:nth-child(6n+4) a:focus {
-		border-bottom: 4px solid rgb(49, 25, 10);
+		border-bottom: 4px solid rgb(71, 99, 97);
 	}
 
 	/* Placing the icon */
