@@ -272,5 +272,16 @@ a:hover {
 
 /* ------------- FOOTER ------------ */
 #main_footer{
+    color: white;
     background-color: #13383D;
+}
+
+ #main_footer a {
+    color: white;
+}
+#main_footer i:hover {
+    color: black;
+}
+#main_footer li{
+    display: inline-block;
 }
