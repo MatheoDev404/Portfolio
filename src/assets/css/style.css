@@ -169,7 +169,7 @@ a:hover {
 }
 .competences, .parcours{
     padding: 3rem;
-    background-color: #079679;
+    background-color: #07968a;
     width: 45%;
     font-size: 1.6rem;
     margin: 2.5%;
@@ -217,7 +217,7 @@ a:hover {
 /* ------------- CONTACT ------------ */
 
 #contact{
-    background-color: #079679;
+    background-color: #07968a;
     padding-top: 120px;
     display: flex;
     flex-wrap: wrap;
@@ -240,7 +240,7 @@ a:hover {
     margin: 2.5%;
 }
 .right input, .right textarea{
-    box-shadow: inset 0 0 4px #000000;
+    box-shadow: inset 0 0 6px #000000;
     border:none;
     width: 100%;
     margin-bottom:1rem;
@@ -272,5 +272,5 @@ a:hover {
 
 /* ------------- FOOTER ------------ */
 #main_footer{
-    background-color: #078C53;
+    background-color: #13383D;
 }
