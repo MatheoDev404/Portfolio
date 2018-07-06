@@ -59,12 +59,28 @@ $(()=>{
 
     // skillbar
     $( window ).scroll(function() {
+        console.log(this.scrollY);
+        var scroll = this.scrollY;
+        if (scroll > 965) {
+           $('#menu').css({
+            'position': 'fixed',
+            'z-index': 5,
+            'top': 0,
+            'left': 0,
+            'width': '100%'
+           })
+        }else{
+            $('#menu').css({
+                'position': 'static'
+            })
+        }
         progressBar(".html-css-bar","90%");
         progressBar(".js-bar","80%");
         progressBar(".jquery-bar","80%");
         progressBar(".angular-bar","30%");
         progressBar(".php-bar","50%");
         progressBar(".mysql-bar","50%");
+
     });
     
 });

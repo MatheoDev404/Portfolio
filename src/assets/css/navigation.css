@@ -99,15 +99,15 @@ a, button {
 }
 
 .nav li:nth-child(6n+2) {
-	background: #007D7F;
+	background: #014b4d;
 }
 
 .nav li:nth-child(6n+3) {
-	background: #005657;
+	background: #07534d;
 }
 
 .nav li:nth-child(6n+4) {
-	background: #07968a;
+	background: rgb(1, 114, 108);
 }
 
 
