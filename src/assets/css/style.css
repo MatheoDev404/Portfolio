@@ -238,15 +238,11 @@ a:hover {
 }
 
 .left, .right{
-    padding: 3rem;
-    background-color: rgba(0, 125, 127, 0.24);
+    padding: 4rem;
+    background-color: #014b4d;
     width: 45%;
     font-size: 1.6rem;
     margin: 2.5%;
-}
-.right {
-    padding-left:100px; 
-    padding-right:100px; 
 }
 
 .right input, .right textarea{
