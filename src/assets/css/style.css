@@ -278,16 +278,36 @@ a:hover {
 #main_footer{
     color: white;
     background-color: #13383D;
+    
+}
+#main_footer p{
+    text-align: center;
+    margin: 0;
+    line-height: 5rem;
 }
 
-#main_footer a {
+#networks{
+    padding-top: 2rem;
+    width: 50%;
+    margin:0 auto;
+}
+
+#networks li{
+    display: inline-block;
+    text-align: center;
+    width:30%;
+}
+
+#networks a {
     color: white;
 }
-#main_footer i:hover {
-    color: black;
+
+#networks i{
+    font-size: 4rem;
 }
-#main_footer li{
-    display: inline-block;
+
+#networks i:hover {
+    color: black;
 }
 
 /* ------------- RESPONSIVE ------------ */
@@ -312,5 +332,8 @@ a:hover {
     }
     #menu {
         position: fixed;
+    }
+    #networks{
+        width: 100%;
     }
 }
