@@ -53,9 +53,8 @@
                         <img class="img-responsive" src="http://placehold.it/350x250" alt="">
                         <div class="overlay">
                             <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.
-                                <a href="#">Voir le projet</a>
-                            </p>
+                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
+                            <a href="#">Voir le projet</a>
                         </div>
                     </div>
                 </div>
@@ -64,9 +63,8 @@
                         <img class="img-responsive" src="http://placehold.it/350x250" alt="">
                         <div class="overlay">
                             <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.
-                                <a href="#">Voir le projet</a>
-                            </p>
+                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
+                            <a href="#">Voir le projet</a>
                         </div>
                     </div>
                 </div>
@@ -75,9 +73,8 @@
                         <img class="img-responsive" src="http://placehold.it/350x250" alt="">
                         <div class="overlay">
                             <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.
-                                <a href="#">Voir le projet</a>
-                            </p>
+                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
+                            <a href="#">Voir le projet</a>
                         </div>
                     </div>
                 </div>
@@ -86,9 +83,8 @@
                         <img class="img-responsive" src="http://placehold.it/350x250" alt="">
                         <div class="overlay">
                             <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.
-                                <a href="#">Voir le projet</a>
-                            </p>
+                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
+                            <a href="#">Voir le projet</a>
                         </div>
                     </div>
                 </div>
@@ -97,9 +93,8 @@
                         <img class="img-responsive" src="http://placehold.it/350x250" alt="">
                         <div class="overlay">
                             <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.
-                                <a href="#">Voir le projet</a>
-                            </p>
+                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
+                            <a href="#">Voir le projet</a>
                         </div>
                     </div>
                 </div>
@@ -108,9 +103,8 @@
                         <img class="img-responsive" src="http://placehold.it/350x250" alt="">
                         <div class="overlay">
                             <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.
-                                <a href="#">Voir le projet</a>
-                            </p>
+                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
+                            <a href="#">Voir le projet</a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +114,9 @@
             <h2 class="section_title"><span class="uppercase">à</span> propos</h2>
             <div id="presentation">
                 <h2>Présentation</h2>
-                <p>text à propos de moi: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor fugit quia distinctio architecto? Exercitationem culpa fuga laboriosam commodi atque temporibus ad at consectetur blanditiis expedita beatae repellendus unde, asperiores hic! Dolore amet tempora necessitatibus exercitationem praesentium laudantium eos fugit deleniti culpa doloremque id fuga nisi nihil, molestias quidem qui dicta!</p>
+                <p>Un bac Economique et Sociale en poche, une expérience de 5 ans dans la vente, mais une folle envie de changer d'air et d'aller dans un domaine d'avenir !
+" Une reconversion ? Pourquoi pas ! Il faut retourner sur les bancs de l'école ?! 24 ans, intéressé par le web et le numérique depuis longtemps... Allez, je fonce ! "
+Aujourd'hui, je suis une formation en développement web au sein d'Up To by Simplon récemment labellisée Grande Ecole du Numérique ! </p>
             </div>  
             <section>
                 <div class="competences">
@@ -216,7 +212,7 @@
                     <label class="hidden" for="message">message</label>
                     <textarea name="message" id="message" placeholder="Message" cols="25" rows="5"></textarea>
                     
-                    <div id="button">
+                    <div id="envoye">
                         <input type="submit" name="envoyer" value="Envoyer" />
                     </div>
                     

@@ -103,4 +103,12 @@
     background-color: #07534d;
 }
 
+
+@media (max-width: 32.5em){
+	.hovereffect p {
+        display :none;
+    }
+   
+}
+
 /* FIN effet de hover sur les miniatures des projets */

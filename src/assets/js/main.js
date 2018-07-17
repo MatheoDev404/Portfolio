@@ -72,8 +72,11 @@ $(()=>{
             'z-index': 5,
             'top': 0,
             'left': 0,
-            'width': '100%'
-           })
+            'width': '100%',
+           });
+           $('#projects').css({
+            'margin-top': '50px',
+           });
         }else{
             $('#menu').css({
                 'position': 'static'
