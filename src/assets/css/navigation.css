@@ -9,25 +9,6 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.icon-team:before {
-	content: "\e000";
-}
-
-.icon-blog:before {
-	content: "\e001";
-}
-
-.icon-home:before {
-	content: "\e002";
-}
-
-.icon-portfolio:before {
-	content: "\e003";
-}
-
-.icon-services:before {
-	content: "\e004";
-}
 
 .icon-contact:before {
 	content: "\e005";
@@ -36,6 +17,7 @@
 .icon-menu:before {
 	content: "\f0c9";
 }
+
 
 a, li {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -117,7 +99,7 @@ a, button {
 	/* Transforms the list into a horizontal navigation */
 	.nav li {
 		float: left;
-		width: 25%;
+		width: 33.33%;
 		text-align: center;
 		-webkit-transition: border .5s;
 		-moz-transition: border .5s;
@@ -245,25 +227,25 @@ a, button {
 	.no-touch .nav ul li:nth-child(6n+1) a:hover,
 	.no-touch .nav ul li:nth-child(6n+1) a:active,
 	.no-touch .nav ul li:nth-child(6n+1) a:focus {
-		background: rgb(0, 120, 47);
+		background: rgb(25, 66, 71);
 	}
 
 	.no-touch .nav li:nth-child(6n+2) a:hover,
 	.no-touch .nav li:nth-child(6n+2) a:active,
 	.no-touch .nav li:nth-child(6n+2) a:focus {
-		background: rgb(0, 140, 47);
+		background: #035457;
 	}
 
 	.no-touch .nav li:nth-child(6n+3) a:hover,
 	.no-touch .nav li:nth-child(6n+3) a:active,
 	.no-touch .nav li:nth-child(6n+3) a:focus {
-		background: rgb(0, 160, 47);
+		background: #09615a;
 	}
 
 	.no-touch .nav li:nth-child(6n+4) a:hover,
 	.no-touch .nav li:nth-child(6n+4) a:active,
 	.no-touch .nav li:nth-child(6n+4) a:focus {
-		background: rgb(0, 180, 47);
+		background: rgb(3, 128, 121);
 	}
 
 	.nav ul li {
@@ -283,11 +265,11 @@ a, button {
 	.nav li {
 		display: block;
 		float: left;
-		width: 25%;
+		width: 33.33%;
 	}
 	.nav li {
 		float: left;
-		width: 25%;
+		width: 33.33%;
 		text-align: center;
 		-webkit-transition: border .5s;
 		-moz-transition: border .5s;
@@ -344,11 +326,11 @@ a, button {
 	
 }
 
-/* Adapting the font size and width for smaller screns*/
+/* Adapting the font size and width for smaller screens*/
 @media (min-width: 32.5em) and (max-width: 39em) {
 	
 	.nav li span.icon {
-		width: 25%;
+		width: 33.33%;
 	}
 
 	.nav li .icon + span {

@@ -49,18 +49,24 @@ $(()=>{
     // Get scroll position
     function progressBar (bar,max){
         var scroll = this.scrollY;
-        if((scroll > 2330) && (scroll < 3000)){
+        if(scroll > 2400){
             $(bar).css("width", max);
-        }  else if((scroll < 2330) || (scroll > 3000)){
-            $(bar).css("width", "0");
         }
     }
 
-    // skillbar
+
+
+    // scrolls events
     $( window ).scroll(function() {
-        console.log(this.scrollY);
+        
+        // console.log(this.scrollY);
         var scroll = this.scrollY;
-        if (scroll > 965) {
+        // animation page accueil
+        if((scroll >= 10) && (scroll < 965) ){
+        }
+    
+        // nav fix
+        if (scroll >= 966) {
            $('#menu').css({
             'position': 'fixed',
             'z-index': 5,
@@ -73,6 +79,8 @@ $(()=>{
                 'position': 'static'
             })
         }
+
+        // jauges compétences
         progressBar(".html-css-bar","90%");
         progressBar(".js-bar","80%");
         progressBar(".jquery-bar","80%");

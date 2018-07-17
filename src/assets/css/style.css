@@ -81,21 +81,7 @@ a:hover {
     font-size: 5rem;
     text-align: center;
     text-transform: uppercase;
-    
 }
-
-/* ------------- HEADER ------------ */
-
-#main_header{
-    width: 100%;
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-}
-
 
 /* ------------- HOME ------------ */
 
@@ -111,12 +97,28 @@ a:hover {
     color:white ;
     text-align: center;
     font-size: 6rem;
-    line-height: 8rem;
 }
 
 #home h1 span{
     color: #007D7F;
     display: block;
+}
+
+#home i{
+    color: white;
+    font-size:5rem;
+    position: absolute;
+    top: 80vh;
+    left: 46vw;
+}
+#home a{
+    
+}
+
+#home i:hover{
+    border-radius:50%;
+    background-color: #007D7F;
+    color: #13383D;
 }
 
 /* ------------- PROJECTS ------------ */
@@ -139,11 +141,10 @@ a:hover {
     margin: 2rem;
 }
 
-
 /* ------------- ABOUT ------------ */
 
 #about{
-    background-color: #fff;
+    background-color: rgb(236, 236, 236);
     min-height: 100vh;
     padding-top: 120px;
 }
@@ -158,6 +159,7 @@ a:hover {
 #about section{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about_title{
@@ -202,7 +204,6 @@ a:hover {
     line-height: 3rem;
 }
 
-
 /* parcours */
 .cv_button{
     margin: 10px auto;
@@ -221,8 +222,7 @@ a:hover {
 /* ------------- CONTACT ------------ */
 
 #contact{
-    color: white;
-    background-color: #13383D;
+    background-color: rgb(226, 226, 226);
     padding-top: 120px;
     display: flex;
     flex-wrap: wrap;
@@ -280,7 +280,7 @@ a:hover {
     background-color: #13383D;
 }
 
- #main_footer a {
+#main_footer a {
     color: white;
 }
 #main_footer i:hover {
@@ -288,4 +288,29 @@ a:hover {
 }
 #main_footer li{
     display: inline-block;
+}
+
+/* ------------- RESPONSIVE ------------ */
+
+@media (min-width: 50em) and (max-width: 61.250em) {
+
+}
+
+@media (max-width: 49.938em) {	 
+    #home h1{
+        font-size: 3rem;
+    }
+	
+    .competences, .parcours{
+        width: 100%;
+    } 
+    .left, .right{
+        width: 100%;
+    } 
+    .container-img {
+        width: 100%;
+    }
+    #menu {
+        position: fixed;
+    }
 }
