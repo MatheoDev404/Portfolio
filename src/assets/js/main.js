@@ -85,11 +85,16 @@ $(()=>{
 
         // jauges compétences
         progressBar(".html-css-bar","90%");
-        progressBar(".js-bar","80%");
-        progressBar(".jquery-bar","80%");
-        progressBar(".angular-bar","30%");
-        progressBar(".php-bar","50%");
-        progressBar(".mysql-bar","50%");
+        progressBar(".js-bar","90%");
+        progressBar(".jquery-bar","90%");
+        progressBar(".angular-bar","40%");
+        progressBar(".php-bar","80%");
+        progressBar(".mysql-bar","70%");
+        
+        progressBar(".symfony-bar","70%");
+        progressBar(".laravel-bar","70%");
+        progressBar(".ionic-bar","40%");
+        progressBar(".sass-bar","80%");
 
     });
     

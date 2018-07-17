@@ -74,6 +74,11 @@ a:hover {
 .uppercase{
     text-transform: uppercase;
 }
+.display-block{
+    display: block;
+    padding:10px; 
+}
+
 
 .section_title{
     color: #000;
@@ -109,13 +114,12 @@ a:hover {
     font-size:5rem;
     position: absolute;
     top: 80vh;
-    left: 46vw;
+    left: 48vw;
     border-radius:50%;
     transition: background-color .5s;
 }
 
 #home i:hover{
-    
     background-color: #007D7F;
     color: #13383D;
 }
@@ -193,7 +197,7 @@ a:hover {
     box-shadow: inset 0 0 7px #000000;
 }
 
-.jquery-bar, .js-bar, .html-css-bar, .angular-bar, .php-bar, .mysql-bar{
+.jquery-bar, .js-bar, .html-css-bar, .angular-bar, .php-bar, .mysql-bar, .symfony-bar, .laravel-bar, .ionic-bar, .sass-bar{
     width: 0;
     height: 90%;
     border-radius: 5px;

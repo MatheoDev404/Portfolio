@@ -114,9 +114,18 @@
             <h2 class="section_title"><span class="uppercase">à</span> propos</h2>
             <div id="presentation">
                 <h2>Présentation</h2>
-                <p>Un bac Economique et Sociale en poche, une expérience de 5 ans dans la vente, mais une folle envie de changer d'air et d'aller dans un domaine d'avenir !
-" Une reconversion ? Pourquoi pas ! Il faut retourner sur les bancs de l'école ?! 24 ans, intéressé par le web et le numérique depuis longtemps... Allez, je fonce ! "
-Aujourd'hui, je suis une formation en développement web au sein d'Up To by Simplon récemment labellisée Grande Ecole du Numérique ! </p>
+                <p>Je suis un jeune developpeur web, attiré par le web et tout ce qui gravite autour. 
+                    <span class="display-block"></span>
+                    Après mon BAC, 
+                    j'ai donc entamé une formation à l'école multimédia pendant 2 années, 
+                    puis par manque de moyens, 
+                    j'ai donc continué en autodidacte tout en travaillant en parallèle, 
+                    notamment chef d'une équipe de jardiniers. 
+                    <span class="display-block"></span>
+                    Aujourd'hui, 
+                    je suis une formation en développement web et mobile au sein de Webforce3, 
+                    labellisée Grande Ecole du Numérique (GNE), 
+                    afin de confirmer mes acquis et de les solidifier.</p>
             </div>  
             <section>
                 <div class="competences">
@@ -125,7 +134,7 @@ Aujourd'hui, je suis une formation en développement web au sein d'Up To by Simp
                         <li>
                             <div>
                                 <div class="jauge">
-                                    <div class="html-css-bar"><h5>html/css</h5></div>
+                                    <div class="html-css-bar"><h5>HTML5/CSS3</h5></div>
                                 </div>
                             </div>
                         </li>
@@ -161,6 +170,34 @@ Aujourd'hui, je suis une formation en développement web au sein d'Up To by Simp
                             <div>
                                 <div class="jauge">
                                     <div class="mysql-bar"><h5>MySQL</h5></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="jauge">
+                                    <div class="symfony-bar"><h5>Symfony</h5></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="jauge">
+                                    <div class="laravel-bar"><h5>Laravel</h5></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="jauge">
+                                    <div class="ionic-bar"><h5>Ionic</h5></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="jauge">
+                                    <div class="sass-bar"><h5>Sass/Less</h5></div>
                                 </div>
                             </div>
                         </li>
