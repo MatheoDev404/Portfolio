@@ -312,28 +312,33 @@ a:hover {
 
 /* ------------- RESPONSIVE ------------ */
 
-@media (min-width: 50em) and (max-width: 61.250em) {
+@media (max-width: 70em) {
+    .container-img {
+        width: 80%;
+    }
 
 }
-
 @media (max-width: 49.938em) {	 
     #home h1{
         font-size: 3rem;
     }
-	
     .competences, .parcours{
         width: 100%;
     } 
     .left, .right{
         width: 100%;
     } 
-    .container-img {
-        width: 100%;
-    }
     #menu {
         position: fixed;
     }
     #networks{
         width: 100%;
+    }
+}
+
+@media (min-width: 32.5em) and (max-width: 39em) {
+	
+    #projects, #about, #contact{
+        padding-top: 40px;
     }
 }
