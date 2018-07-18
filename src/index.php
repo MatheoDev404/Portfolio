@@ -50,54 +50,25 @@
             <div id="container_projects">
                 <div class="container-img">
                     <div class="hovereffect">
-                        <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+                        <img  src="assets/img/site-chat.png" alt="miniature d'un projet, site d'adoption de chats.">
                         <div class="overlay">
-                            <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
-                            <a href="#">Voir le projet</a>
+                            <h2 class="black">OhMyCats !</h2>
+                            <p class="black">Mise en forme d'un site web responsive d'adoption de chats, en utilisant: HTML/CSS, Less, Bootstrap, JavaScript.</p>
+                            <a class="white" href="#">Voir le projet</a>
                         </div>
                     </div>
                 </div>
                 <div class="container-img">
                     <div class="hovereffect">
-                        <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+                        <img  src="assets/img/site-licorne.png" alt="miniature d'un projet, site d'adoption de chats.">
                         <div class="overlay">
-                            <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
-                            <a href="#">Voir le projet</a>
+                            <h2 class="black">MyUnicorne</h2>
+                            <p class="black">Mise en forme d'un site web responsive d'un élevage de licornes, en utilisant: HTML/CSS.</p>
+                            <a class="white" href="#">Voir le projet</a>
                         </div>
                     </div>
                 </div>
-                <div class="container-img">
-                    <div class="hovereffect">
-                        <img class="img-responsive" src="http://placehold.it/350x250" alt="">
-                        <div class="overlay">
-                            <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
-                            <a href="#">Voir le projet</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-img">
-                    <div class="hovereffect">
-                        <img class="img-responsive" src="http://placehold.it/350x250" alt="">
-                        <div class="overlay">
-                            <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
-                            <a href="#">Voir le projet</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-img">
-                    <div class="hovereffect">
-                        <img class="img-responsive" src="http://placehold.it/350x250" alt="">
-                        <div class="overlay">
-                            <h2>titre du projet</h2>
-                            <p>description du projet, technologie etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio, dolores deserunt dolore minima quibusdam nihil laudantium necessitatibus consequatur.</p>
-                            <a href="#">Voir le projet</a>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="container-img">
                     <div class="hovereffect">
                         <img class="img-responsive" src="http://placehold.it/350x250" alt="">
@@ -114,7 +85,7 @@
             <h2 class="section_title"><span class="uppercase">à</span> propos</h2>
             <div id="presentation">
                 <h2>Présentation</h2>
-                <p>Je suis un jeune developpeur web, attiré par le web et tout ce qui gravite autour. 
+                <p>Je suis un jeune developpeur web, attiré par le web et tout ce qui s'y passe. 
                     <span class="display-block"></span>
                     Après mon BAC, 
                     j'ai donc entamé une formation à l'école multimédia pendant 2 années, 
@@ -125,7 +96,7 @@
                     Aujourd'hui, 
                     je suis une formation en développement web et mobile au sein de Webforce3, 
                     labellisée Grande Ecole du Numérique (GNE), 
-                    afin de confirmer mes acquis et de les solidifier.</p>
+                    afin de confirmer mes acquis de les solidifier.</p>
             </div>  
             <section>
                 <div class="competences">

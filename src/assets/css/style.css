@@ -79,7 +79,12 @@ a:hover {
     padding:10px; 
 }
 
-
+.black{
+    color:black;
+}
+.white{
+    color:white;
+}
 .section_title{
     color: #000;
     line-height: 10rem;
