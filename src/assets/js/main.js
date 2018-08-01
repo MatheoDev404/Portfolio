@@ -31,6 +31,8 @@ $(()=>{
         }
     }
 
+
+
     //Smooth scroll
     $("a[href*='#']:not([href='#'])").click(function() {
         if (
@@ -45,6 +47,8 @@ $(()=>{
         }
     });
     
+
+
     // ABOUT
     // Get scroll position
     function progressBar (bar,max){
@@ -63,20 +67,25 @@ $(()=>{
         var scroll = this.scrollY;
         // animation page accueil
         if((scroll >= 10) && (scroll < 965) ){
+
         }
     
         // nav fix
-        if (scroll >= 966) {
-           $('#menu').css({
-            'position': 'fixed',
+        if (scroll > 966) { 
+            
+        $('#projects').css({
+            'margin-top': '50px',
+        })
+
+        $('#menu').css({
             'z-index': 5,
+            'position': 'fixed',
             'top': 0,
             'left': 0,
             'width': '100%',
-           });
-           $('#projects').css({
-            'margin-top': '50px',
-           });
+        });
+       
+        
         }else{
             $('#menu').css({
                 'position': 'static'

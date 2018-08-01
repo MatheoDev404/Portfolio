@@ -96,6 +96,7 @@ a:hover {
 /* ------------- HOME ------------ */
 
 #home{
+    z-index: 6;
     height: 100vh;
     background-color: #13383D;
     background-size: cover;
@@ -355,10 +356,4 @@ a:hover {
     #projects, #about, #contact{
         padding-top: 40px;
     }
-}
-
-@media (max-width: 39em) {
-	
-    
-   
 }
