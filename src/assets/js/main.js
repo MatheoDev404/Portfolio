@@ -42,7 +42,7 @@ $(()=>{
             var anchor = $(this.hash);
             anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
             if ( anchor.length ) {
-                $("html, body").animate( { scrollTop: anchor.offset().top }, 1000);
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 500);
             }
         }
     });
@@ -65,31 +65,23 @@ $(()=>{
         
         // console.log(this.scrollY);
         var scroll = this.scrollY;
-        // animation page accueil
-        if((scroll >= 10) && (scroll < 965) ){
 
-        }
     
-        // nav fix
+        // fixing nav
         if (scroll > 966) { 
-            
-        $('#projects').css({
-            'margin-top': '50px',
-        })
-
-        $('#menu').css({
-            'z-index': 5,
-            'position': 'fixed',
-            'top': 0,
-            'left': 0,
-            'width': '100%',
-        });
-       
-        
-        }else{
             $('#menu').css({
-                'position': 'static'
-            })
+                'z-index':'5',
+                'position': 'fixed',
+                'top ':'0',
+                'left':'0'
+            });
+
+            $('#projects').css({
+                'margin-top': '50px',
+            });
+
+        }else{
+
         }
 
         // jauges compétences
@@ -99,7 +91,6 @@ $(()=>{
         progressBar(".angular-bar","40%");
         progressBar(".php-bar","80%");
         progressBar(".mysql-bar","70%");
-
         progressBar(".symfony-bar","70%");
         progressBar(".laravel-bar","70%");
         progressBar(".ionic-bar","40%");

@@ -131,7 +131,7 @@ a:hover {
 }
 
 #menu {
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 /* ------------- PROJECTS ------------ */
@@ -180,9 +180,11 @@ a:hover {
     text-align: center;
     margin-bottom: 2rem;
 }
+
 #liste-competences li{
     list-style: none;
 }
+
 .competences, .parcours{
     padding: 3rem;
     width: 45%;
